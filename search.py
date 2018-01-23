@@ -39,7 +39,7 @@ for card_name in card_list:
 		print '{}'.format(card_data['name'])+padding+'price: {}'.format(ccgo.format_price(card_data['price']))
 		total_price += float(card_data['price'])
 
-print '\n\ntotal price for all cards: ${}\n'.format(ccgo.format_price(total_price))
+print '\n\ntotal price for all cards: {}\n'.format(ccgo.format_price(total_price))
 
 if unavailable_cards:
 	print 'unavailable cards:'
